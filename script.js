@@ -14,7 +14,7 @@ class Header extends HTMLElement {
         `;
     }
 }
-customElements.define("my-header", Header)
+customElements.define("header-part", Header)
 
 // PROGRESS COMPONENT
 class Progress extends HTMLElement {
@@ -32,7 +32,7 @@ class Progress extends HTMLElement {
         `;
     }
 }
-customElements.define("my-progress", Progress)
+customElements.define("progress-part", Progress)
 
 // LIST
 class List extends HTMLElement {
@@ -100,7 +100,7 @@ class List extends HTMLElement {
         })
     }       
 }
-customElements.define("my-list", List)
+customElements.define("list-list", List)
 
 
 // // RECURRING LISTS
@@ -119,4 +119,4 @@ class Recurring extends HTMLElement {
         `;
     }
 }
-customElements.define("my-recurring", Recurring)
+customElements.define("recurring-items", Recurring)
